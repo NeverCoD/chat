@@ -2,7 +2,7 @@
   <div class="card" id="chat2">
     <div class="card-header custom-card-header">
       <img
-        src="../assets/ridebot.gif"
+        src="./assets/ridebot.gif"
         alt="avatar 2"
         class="rounded-circle custom-rounded-circle"
       />
