@@ -61,7 +61,7 @@
     </div>
 
     <div
-      class="card-footer text-muted d-flex justify-content-start align-items-center p-3 bg-white"
+      class="card-footer text-muted d-flex justify-content-start align-items-center  p-3 bg-white "
     >
       <textarea
         class="form-control form-control-xl"
@@ -99,7 +99,31 @@
         ></i>
       </button>
     </div>
+    <footer >
+      <nav
+        class="nav border-top nav-pills nav-justified flex-nowrap custom-footer " 
+
+      >
+      <div class="btn-group" role="group" style="width:100%;" >
+        <a href="https://treantprotectorgo.github.io/html-home/" class="btn btn-light" >
+          <i style="display: flex; flex-direction: column; font-size: 28px;" class="material-icons">home</i>
+          Home</a>
+
+        <a href="https://nevercod.github.io/chat/" class="btn btn-light">
+          <i class="material-icons" style="display: flex; flex-direction: column; font-size: 28px;">chat</i>
+          Chat
+        </a>
+
+        <a href="https://treantprotectorgo.github.io/vue-bootstrap/" class="btn btn-light" style=" color: #094FA3;">
+          <i class="material-icons" style="display: flex; flex-direction: column; font-size: 28px;">shopping_cart</i>
+          Cart
+        </a>
+      </div>
+
+    </nav>
+  </footer>
   </div>
+  
 </template>
 
 <script>
@@ -282,8 +306,8 @@ export default defineComponent({
 
 <style>
 .card {
-  height: 100vh;
   font-family: "Roboto", Arial, sans-serif;
+  height:100vh;
 }
 
 #input-btn {
@@ -294,7 +318,7 @@ export default defineComponent({
 .chat-body {
   position: relative;
   overflow-y: scroll;
-  height: 75vh;
+  margin-bottom: 0;
 }
 
 .rounded-circle {
@@ -328,7 +352,7 @@ export default defineComponent({
 .custom-card-header {
   background: linear-gradient(to right, #094fa3, #2f7ec9);
   color: white;
-  height: 10vh;
+  height: 10%;
   display: flex;
   align-items: center;
   padding-left: 20px;
@@ -352,9 +376,9 @@ export default defineComponent({
 }
 
 .card-footer {
-  height: auto;
   border-width: 2px;
 }
+
 
 .bounce-out-enter-active {
   animation: bounce-out 0.5s;
