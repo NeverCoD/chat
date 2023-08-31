@@ -109,12 +109,12 @@
           <i style="display: flex; flex-direction: column; font-size: 28px;" class="material-icons">home</i>
           Home</a>
 
-        <a href="https://nevercod.github.io/chat/" class="btn btn-light">
+        <a href="https://nevercod.github.io/chat/" class="btn btn-light" style ="color: #094FA3;">
           <i class="material-icons" style="display: flex; flex-direction: column; font-size: 28px;">chat</i>
           Chat
         </a>
 
-        <a href="https://treantprotectorgo.github.io/vue-bootstrap/" class="btn btn-light" style=" color: #094FA3;">
+        <a href="https://treantprotectorgo.github.io/vue-bootstrap/" class="btn btn-light" >
           <i class="material-icons" style="display: flex; flex-direction: column; font-size: 28px;">shopping_cart</i>
           Cart
         </a>
